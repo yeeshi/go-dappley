@@ -1,4 +1,16 @@
 language: go
+addons:
+apt:
+  sources:
+    - ubuntu-toolchain-r-test
+  packages:
+    - g++-6
+    - gcc-6
+    - libsnappy-dev
+    - zlib1g-dev
+    - libbz2-dev
+
+
 go:
 - 1.10.x
 os:
@@ -22,5 +34,5 @@ install:
 - dep ensure
 
 script:
-- go test ./...
 - make build
+- go test ./...
