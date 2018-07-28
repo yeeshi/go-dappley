@@ -12,13 +12,15 @@ before_install:
 - sudo dpkg -i libgflags-dev_2.0-1.1ubuntu1_amd64.deb
 
 install:
-- dep ensure
-- cd $HOME/gopath/src/github.com/yeeshi/go-dappley/crypto/keystore/secp256k1/libsecp256k1/
+- git clone https://github.com/bitcoin-core/secp256k1.git /tmp/secp256k1
+- pushd /tmp/secp256k1
 - ./autogen.sh
 - ./configure
 - make
 - sudo make install
-- cd $HOME/gopath/src/github.com/yeeshi/go-dappley
-- make build
+- cd -
+- dep ensure
+
 script:
 - go test ./...
+- make build
