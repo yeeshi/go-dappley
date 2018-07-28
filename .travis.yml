@@ -1,15 +1,4 @@
 language: go
-addons:
-apt:
-  sources:
-    - ubuntu-toolchain-r-test
-  packages:
-    - g++-6
-    - gcc-6
-    - libsnappy-dev
-    - zlib1g-dev
-    - libbz2-dev
-
 
 go:
 - 1.10.x
@@ -19,15 +8,7 @@ os:
 
 cache:
   apt: true
-  directories:
-    - _venv
-    - $GOPATH/src
-    - $GOPATH/pkg
-
-
 before_install:
-  - export GOROOT=$(go env GOROOT)
-  - export CXX="g++-6" CC="gcc-6"
   - wget https://launchpad.net/ubuntu/+archive/primary/+files/libgflags2_2.0-1.1ubuntu1_amd64.deb
   - sudo dpkg -i libgflags2_2.0-1.1ubuntu1_amd64.deb
   - wget https://launchpad.net/ubuntu/+archive/primary/+files/libgflags-dev_2.0-1.1ubuntu1_amd64.deb
