@@ -15,13 +15,13 @@ before_install:
 
 
 install:
-- git clone https://github.com/bitcoin-core/secp256k1.git /tmp/secp256k1
-- pushd /tmp/secp256k1
-- ./autogen.sh
-- ./configure
-- make
-- sudo make install
-- cd -
+ - git clone https://github.com/copernet/secp256k1.git /tmp/secp256k1
+  - pushd /tmp/secp256k1
+  - ./autogen.sh
+  - ./configure --enable-experimental --enable-module-ecdh --enable-module-recovery
+  - make -j16
+  - sudo make install
+  - cd -
 - dep ensure
 
 script:
