@@ -27,7 +27,7 @@ import (
 
 	"github.com/nebulasio/go-nebulas/util/byteutils"
 	"github.com/stretchr/testify/assert"
-	"github.com/dappley/go-dappley/crypto/hash"
+	"github.com/yeeshi/go-dappley/crypto/hash"
 )
 
 func TestFromECDSAPri(t *testing.T) {

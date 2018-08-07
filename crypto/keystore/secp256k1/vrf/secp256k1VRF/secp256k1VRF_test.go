@@ -26,8 +26,8 @@ import (
 
 
 	// _ "github.com/google/trillian/crypto/keys/der/proto"
-	"github.com/dappley/go-dappley/crypto/byteutils"
-	"github.com/dappley/go-dappley/crypto/keystore/secp256k1"
+	"github.com/yeeshi/go-dappley/crypto/byteutils"
+	"github.com/yeeshi/go-dappley/crypto/keystore/secp256k1"
 )
 
 const (

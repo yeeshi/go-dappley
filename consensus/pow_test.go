@@ -20,12 +20,12 @@ package consensus
 
 import (
 	"testing"
-	"github.com/dappley/go-dappley/core"
+	"github.com/yeeshi/go-dappley/core"
 	"math/big"
 	"github.com/stretchr/testify/assert"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 	"time"
-	"github.com/dappley/go-dappley/client"
+	"github.com/yeeshi/go-dappley/client"
 	"github.com/libp2p/go-libp2p-peer"
 	"github.com/sirupsen/logrus"
 )

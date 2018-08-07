@@ -3,7 +3,7 @@ package network
 import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/gogo/protobuf/proto"
-	"github.com/dappley/go-dappley/network/pb"
+	"github.com/yeeshi/go-dappley/network/pb"
 	"github.com/libp2p/go-libp2p-peer"
 	"fmt"
 	logger "github.com/sirupsen/logrus"

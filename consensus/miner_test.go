@@ -23,10 +23,10 @@ import (
 
 	"time"
 
-	"github.com/dappley/go-dappley/client"
-	"github.com/dappley/go-dappley/core"
-	"github.com/dappley/go-dappley/storage"
-	"github.com/dappley/go-dappley/util"
+	"github.com/yeeshi/go-dappley/client"
+	"github.com/yeeshi/go-dappley/core"
+	"github.com/yeeshi/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/util"
 	"github.com/stretchr/testify/assert"
 	logger "github.com/sirupsen/logrus"
 	"fmt"

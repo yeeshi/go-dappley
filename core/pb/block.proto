@@ -1,6 +1,6 @@
 syntax = "proto3";
 package corepb;
-import "github.com/dappley/go-dappley/core/pb/transaction.proto";
+import "github.com/yeeshi/go-dappley/core/pb/transaction.proto";
 
 
 message Block{

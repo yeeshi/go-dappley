@@ -6,9 +6,9 @@ import (
 	"errors"
 	"log"
 
-	"github.com/dappley/go-dappley/core"
-	"github.com/dappley/go-dappley/storage"
-	"github.com/dappley/go-dappley/crypto/keystore/secp256k1/bitelliptic"
+	"github.com/yeeshi/go-dappley/core"
+	"github.com/yeeshi/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/crypto/keystore/secp256k1/bitelliptic"
 )
 
 const WalletFile = "../bin/wallets.dat"

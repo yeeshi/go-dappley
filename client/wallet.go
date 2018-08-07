@@ -18,7 +18,7 @@
 package client
 
 import (
-	"github.com/dappley/go-dappley/core"
+	"github.com/yeeshi/go-dappley/core"
 )
 
 type Wallet struct {

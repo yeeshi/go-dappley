@@ -23,7 +23,7 @@ import (
 
 	"sync"
 
-	"github.com/dappley/go-dappley/crypto/cipher"
+	"github.com/yeeshi/go-dappley/crypto/cipher"
 )
 
 var (

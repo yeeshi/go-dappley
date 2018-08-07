@@ -24,9 +24,9 @@ import (
 
 	"container/heap"
 
-	"github.com/dappley/go-dappley/core"
+	"github.com/yeeshi/go-dappley/core"
 	logger "github.com/sirupsen/logrus"
-	"github.com/dappley/go-dappley/network"
+	"github.com/yeeshi/go-dappley/network"
 	"github.com/libp2p/go-libp2p-peer"
 	"github.com/multiformats/go-multiaddr"
 )

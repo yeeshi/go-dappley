@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/dappley/go-dappley/logic"
+	pb "github.com/yeeshi/go-dappley/logic"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

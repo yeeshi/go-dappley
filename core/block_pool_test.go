@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 )
 
 

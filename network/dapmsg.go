@@ -2,7 +2,7 @@ package network
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/dappley/go-dappley/network/pb"
+	"github.com/yeeshi/go-dappley/network/pb"
 )
 
 type Dapmsg struct{

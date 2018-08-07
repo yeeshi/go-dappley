@@ -4,11 +4,11 @@ import (
 	"log"
 	"sync"
 
-	"github.com/dappley/go-dappley/consensus"
-	"github.com/dappley/go-dappley/core"
-	"github.com/dappley/go-dappley/logic"
-	"github.com/dappley/go-dappley/network"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/consensus"
+	"github.com/yeeshi/go-dappley/core"
+	"github.com/yeeshi/go-dappley/logic"
+	"github.com/yeeshi/go-dappley/network"
+	"github.com/yeeshi/go-dappley/storage"
 	logger "github.com/sirupsen/logrus"
 )
 

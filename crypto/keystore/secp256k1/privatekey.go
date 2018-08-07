@@ -19,8 +19,8 @@
 package secp256k1
 
 import (
-	"github.com/dappley/go-dappley/crypto/keystore"
-	"github.com/dappley/go-dappley/crypto/utils"
+	"github.com/yeeshi/go-dappley/crypto/keystore"
+	"github.com/yeeshi/go-dappley/crypto/utils"
 
 	"log"
 )

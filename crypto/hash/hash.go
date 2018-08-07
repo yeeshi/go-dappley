@@ -22,7 +22,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 
-	keccak "github.com/dappley/go-dappley/crypto/sha3"
+	keccak "github.com/yeeshi/go-dappley/crypto/sha3"
 	"golang.org/x/crypto/ripemd160"
 	"golang.org/x/crypto/sha3"
 )

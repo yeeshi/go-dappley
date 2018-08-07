@@ -3,7 +3,7 @@ package network
 import (
 	"context"
 	"fmt"
-	"github.com/dappley/go-dappley/core"
+	"github.com/yeeshi/go-dappley/core"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-host"
 	"github.com/libp2p/go-libp2p-net"
@@ -12,8 +12,8 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	logger "github.com/sirupsen/logrus"
 	"github.com/gogo/protobuf/proto"
-	"github.com/dappley/go-dappley/core/pb"
-	"github.com/dappley/go-dappley/network/pb"
+	"github.com/yeeshi/go-dappley/core/pb"
+	"github.com/yeeshi/go-dappley/network/pb"
 	"time"
 	"math/rand"
 )

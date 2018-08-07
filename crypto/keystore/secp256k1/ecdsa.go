@@ -30,7 +30,7 @@ import (
 
 	"crypto/rand"
 
-	"github.com/dappley/go-dappley/crypto/keystore/secp256k1/bitelliptic"
+	"github.com/yeeshi/go-dappley/crypto/keystore/secp256k1/bitelliptic"
 )
 
 // S256 returns an instance of the secp256k1 curve.

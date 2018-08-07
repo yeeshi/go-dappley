@@ -1,9 +1,9 @@
 package core
 
 import (
-	"github.com/dappley/go-dappley/util"
+	"github.com/yeeshi/go-dappley/util"
 	"time"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 )
 
 func GenerateMockBlock() *Block{

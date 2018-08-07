@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dappley/go-dappley/crypto"
-	"github.com/dappley/go-dappley/crypto/keystore"
-	"github.com/dappley/go-dappley/crypto/byteutils"
+	"github.com/yeeshi/go-dappley/crypto"
+	"github.com/yeeshi/go-dappley/crypto/keystore"
+	"github.com/yeeshi/go-dappley/crypto/byteutils"
 )
 
 const (

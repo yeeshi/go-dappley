@@ -3,7 +3,7 @@ package core
 import (
 	"bytes"
 
-	"github.com/dappley/go-dappley/core/pb"
+	"github.com/yeeshi/go-dappley/core/pb"
 	"github.com/gogo/protobuf/proto"
 )
 

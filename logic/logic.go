@@ -21,10 +21,10 @@ package logic
 import (
 	"errors"
 
-	"github.com/dappley/go-dappley/client"
-	"github.com/dappley/go-dappley/core"
-	"github.com/dappley/go-dappley/storage"
-	"github.com/dappley/go-dappley/util"
+	"github.com/yeeshi/go-dappley/client"
+	"github.com/yeeshi/go-dappley/core"
+	"github.com/yeeshi/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/util"
 )
 
 var (

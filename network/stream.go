@@ -7,7 +7,7 @@ import (
 	"sync"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/gogo/protobuf/proto"
-	"github.com/dappley/go-dappley/network/pb"
+	"github.com/yeeshi/go-dappley/network/pb"
 	"errors"
 	logger "github.com/sirupsen/logrus"
 	"reflect"

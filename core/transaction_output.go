@@ -4,8 +4,8 @@ import (
 	"bytes"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/dappley/go-dappley/util"
-	"github.com/dappley/go-dappley/core/pb"
+	"github.com/yeeshi/go-dappley/util"
+	"github.com/yeeshi/go-dappley/core/pb"
 )
 
 type TXOutput struct {

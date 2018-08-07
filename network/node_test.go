@@ -3,9 +3,9 @@ package network
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/dappley/go-dappley/core"
+	"github.com/yeeshi/go-dappley/core"
 	"time"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 	"os"
 	logger "github.com/sirupsen/logrus"
 )

@@ -21,8 +21,8 @@ package crypto
 import (
 	"errors"
 
-	"github.com/dappley/go-dappley/crypto/keystore"
-	"github.com/dappley/go-dappley/crypto/keystore/secp256k1"
+	"github.com/yeeshi/go-dappley/crypto/keystore"
+	"github.com/yeeshi/go-dappley/crypto/keystore/secp256k1"
 )
 
 var (

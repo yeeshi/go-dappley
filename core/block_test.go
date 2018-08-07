@@ -5,7 +5,7 @@ package core
 
 	"time"
 
-	"github.com/dappley/go-dappley/core/pb"
+	"github.com/yeeshi/go-dappley/core/pb"
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 )

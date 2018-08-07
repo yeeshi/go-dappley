@@ -2,7 +2,7 @@ package core
 
 import (
 	"bytes"
-	"github.com/dappley/go-dappley/util"
+	"github.com/yeeshi/go-dappley/util"
 )
 
 type Address struct {

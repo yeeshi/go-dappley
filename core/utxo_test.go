@@ -2,9 +2,9 @@ package core
 
 import (
 	"testing"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 	"time"
-	"github.com/dappley/go-dappley/util"
+	"github.com/yeeshi/go-dappley/util"
 	"github.com/stretchr/testify/assert"
 
 )

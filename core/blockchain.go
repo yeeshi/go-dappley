@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 	logger "github.com/sirupsen/logrus"
 )
 

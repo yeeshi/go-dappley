@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/gob"
 	"log"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/storage"
 	"strings"
 	"fmt"
 )

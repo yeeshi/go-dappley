@@ -15,9 +15,9 @@ import (
 
 	"math/big"
 
-	"github.com/dappley/go-dappley/core/pb"
-	"github.com/dappley/go-dappley/crypto/keystore/secp256k1"
-	"github.com/dappley/go-dappley/storage"
+	"github.com/yeeshi/go-dappley/core/pb"
+	"github.com/yeeshi/go-dappley/crypto/keystore/secp256k1"
+	"github.com/yeeshi/go-dappley/storage"
 	"github.com/gogo/protobuf/proto"
 )
 
